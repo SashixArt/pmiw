@@ -1,5 +1,5 @@
 //Ayala Sasha, Gil Micaela com3
-
+//Link del video: https://youtu.be/J0wS5m8f6qM
 //En que pantalla estas 
 let DEBUG = false;
 
@@ -483,3 +483,4 @@ function colisionRectangular(x_, y_, ancho_, alto_) {
     return false;
   }
 }
+
