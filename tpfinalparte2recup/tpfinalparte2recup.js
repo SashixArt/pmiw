@@ -1,3 +1,8 @@
+//Ayala Sasha Micaela Comision 3
+//Juego Teseo y el Minotauro: Pacman
+//https://www.youtube.com/watch?v=7meB1kRsIkM
+
+
 //Variable Global para el JUEGO
 let juego;
 
@@ -57,3 +62,4 @@ function mousePressed() {
 
 
 }
+
