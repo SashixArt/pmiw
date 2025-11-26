@@ -199,18 +199,19 @@ class Juego {
     push(); textAlign(CENTER,CENTER); textSize(25); fill(200,0,0);
     text("GAME OVER — Gana el MINOTAURO", width/2,height/2-20);
     textSize(15); fill(0);
-    text("Toca el botón JUGAR para volver al inicio", width/2,height/2+20);
+    text("Toca el botón Espacebar para volver al inicio", width/2,height/2+20);
   }
 
   pantallaVictoria() {
     push(); textAlign(CENTER,CENTER); textSize(25); fill(0,150,0);
     text("VICTORIA DE TESEO", width/2,height/2-20);
     textSize(15); fill(0);
-    text("Toca el botón JUGAR para volver al inicio", width/2,height/2+20);
+    text("Toca el botón Espacebar para volver al inicio", width/2,height/2+20);
   }
 
   pantallaCreditos() { image(creditospantallaImg,0,0,width,height); }
   pantallaTutorial() { background(100); textAlign(CENTER,CENTER); textSize(20); fill(255);
-    text("Tutorial\nTeseo: Usa flechas para moverte\nWASD para el minotauro\nTomá monedas para ganar\nToca JUGAR para volver", width/2,height/2);
+   text("Tutorial\nTeseo: movete con las flechas\nPara ganar: tomá las monedas\nMinotauro: movete con WASD\nObjetivo del minotauro: matar 2 veces a Teseo\nPresioná ESPACIO para volver", width/2, height/2);
   }
 }
+
